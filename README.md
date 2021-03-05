@@ -16,6 +16,18 @@ Create your notes and publish them digital-garden style effortlessely.
 
   If you want to change the branch name, change it [here](./.github/workflows/publish.yaml)
 
+## code syntax highlighting
+
+### theme
+
+- this template uses `okaidia` as the default prism theme
+- if you wish to change it, please update [this line](https://github.com/ankeetmaini/foam-digital-garden/blob/main/src/gatsby-theme-garden/components/mdx-components/CodeBlock.js#L4)
+
+### adding language syntaxes
+
+- by default it covers most of the languages but if you want to add it
+- import the prism modules [here as shown](https://github.com/ankeetmaini/foam-digital-garden/blob/main/src/gatsby-theme-garden/components/mdx-components/CodeBlock.js#L7)
+
 ## credits
 
 - Gatsby starter for Digital Garden - https://github.com/mathieudutour/gatsby-starter-digital-garden
