@@ -1,0 +1,34 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
+  "files.defaultLanguage": "markdown",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/public": true,
+    "**/.cache": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true,
+    "**/public": true,
+    "**/.cache": true
+  },
+  "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "markdown.preview.breaks": true,
+  "pasteImage.path": "${projectRoot}/attachments",
+  "pasteImage.showFilePathConfirmInputBox": true,
+  "prettier.singleQuote": false,
+  "spellright.notificationClass": "warning",
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+  "window.autoDetectColorScheme": true,
+  "foam.openDailyNote.titleFormat": "'Journal Entry, ' dddd, mmmm d",
+  "foam.openDailyNote.filenameFormat": "'daily-note'-yyyy-mm-dd",
+  "foam.openDailyNote.directory": "notes/"
+}

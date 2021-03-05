@@ -1,14 +1,15 @@
 module.exports = {
+  pathPrefix: "/digital-garden",
   plugins: [
     {
       resolve: `gatsby-theme-garden`,
       options: {
-        contentPath: `${__dirname}/content/garden`,
-        rootNote: `/hello`,
+        contentPath: `${__dirname}/notes`,
+        rootNote: `/index`,
       },
     },
   ],
   siteMetadata: {
-    title: `Site title`,
+    title: `My Digtal Garden`,
   },
 }

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-digital-garden",
+  "name": "foam-digital-garden",
   "private": true,
   "version": "0.0.1",
   "scripts": {
@@ -11,7 +11,13 @@
   "dependencies": {
     "gatsby": "^2.21.37",
     "gatsby-theme-garden": "^0.1.1",
+    "prism-react-renderer": "^1.2.0",
+    "prismjs": "^1.23.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "@babel/plugin-proposal-export-default-from": "^7.12.13"
   }
 }
